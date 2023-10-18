@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to bottom, #212529, #343a40, #495057, #6c757d);
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 5px red;
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    }
+
+#container {
+    display: flex;
+    margin: 0 1.25rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+
+h2 {
+   font-size: 2.25rem; 
+   margin: 1.5rem 0;
+   text-align: center;
+}
+
+button {
+    margin-bottom: 3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #540804;
+    color: white;
+    width: 90%;
+    padding: 15px 100px;
+    font-weight: 700;
+}
+
+button:hover, button:focus, button:active {
+    background-color: #81171b;
+    cursor: pointer;
+    transform: scale(101%);
+    transition: 300ms;
+    box-shadow: 0 0 5px gray;
+}
+
+
+
